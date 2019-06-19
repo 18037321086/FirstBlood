@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'FirstBlood.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'FirstBlood',  # Or path to database file if using sqlite3.
-        'USER': 'root',  # Not used with sqlite3.
-        'PASSWORD': '123.com',  # Not used with sqlite3.
-        'HOST': '127.0.0.1',  # Set to empty string for localhost. Not used with sqlite3.
+        'NAME': 'firstblood',  # Or path to database file if using sqlite3.
+        'USER': 'firstblood',  # Not used with sqlite3.
+        'PASSWORD': 'First#@Blood2019',  # Not used with sqlite3.
+        'HOST': 'rm-uf6ob0169g754bt9who.mysql.rds.aliyuncs.com',  # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '3306',  # Set to empty string for default. Not used with sqlite3.
         'STORAGE_ENGINE': 'MYISAM'
         # 'OPTIONS': {"init_command": "SET foreign_key_checks = 0;",},
